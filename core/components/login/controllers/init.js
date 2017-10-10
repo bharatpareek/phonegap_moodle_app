@@ -23,7 +23,7 @@ angular.module('mm.core.login')
  */
 .controller('mmLoginInitCtrl', function($log, $ionicHistory, $state, $mmSitesManager, $mmSite, $mmApp, $mmLoginHelper,
             mmCoreNoSiteId) {
-//debugger;
+
     $log = $log.getInstance('mmLoginInitCtrl');
 
     $mmApp.ready().then(function() {
@@ -58,7 +58,7 @@ angular.module('mm.core.login')
                 }
             }
         }
-debugger;
+
         loadCurrent();
     });
 
