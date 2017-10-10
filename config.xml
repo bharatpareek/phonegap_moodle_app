@@ -4,7 +4,7 @@
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.moodle.moodlemobile"
         versionCode = "3"
-        version   = "3.3.1">
+        version   = "3.3.2">
     <name>Blend Academy</name>
 
     <description>
